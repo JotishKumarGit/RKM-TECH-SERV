@@ -85,10 +85,9 @@
                 </ul>
 
                 <!-- Search -->
-                <form class="d-flex ms-lg-5">
-                    <button class="btn btn-outline-primary" type="button">Enquiry</button>
-                </form>
-
+                <div class="d-flex ms-lg-5">
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
+                </div>
 
             </div>
         </div>
@@ -300,9 +299,9 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-mobile-alt fa-3x mb-3" style="color: #0B5ED7;"></i>
-                            <h5 class="card-title" style="color: #0B5ED7;">Mobile & Tablet Repair</h5>
-                            <p class="card-text" style="color: #495057;">
+                            <i class="bi bi-phone fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
+                            <h5 class="card-title" style="color: #0B5ED7; ">Mobile & Tablet Repair</h5>
+                            <p class="card-text" style="color: #495057; ">
                                 Expert repair services for smartphones and tablets including screen replacement, battery
                                 replacement, and software troubleshooting.
                             </p>
@@ -316,7 +315,7 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-battery-full fa-3x mb-3" style="color: #0B5ED7;"></i>
+                            <i class="bi bi-battery-full fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Battery & Power Solutions</h5>
                             <p class="card-text" style="color: #495057;">
                                 High-quality batteries and power solutions for all electronic devices ensuring
@@ -332,7 +331,7 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-cogs fa-3x mb-3" style="color: #0B5ED7;"></i>
+                            <i class="bi bi-gear fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Electronics Installation</h5>
                             <p class="card-text" style="color: #495057;">
                                 Professional setup and installation of electronic devices, cables, and smart home
@@ -348,7 +347,7 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-clock fa-3x mb-3" style="color: #0B5ED7;"></i>
+                            <i class="bi bi-smartwatch fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Smart Watch Services</h5>
                             <p class="card-text" style="color: #495057;">
                                 Maintenance, setup, and troubleshooting services for smart watches to keep you connected
@@ -364,7 +363,7 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-plug fa-3x mb-3" style="color: #0B5ED7;"></i>
+                            <i class="bi bi-plug fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Cable & Connectivity Services</h5>
                             <p class="card-text" style="color: #495057;">
                                 Providing installation, replacement, and optimization of cables for smooth connectivity
@@ -380,7 +379,7 @@
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
-                            <i class="fas fa-shield-alt fa-3x mb-3" style="color: #0B5ED7;"></i>
+                            <i class="bi bi-shield-check fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Product Support & Warranty</h5>
                             <p class="card-text" style="color: #495057;">
                                 Comprehensive support and warranty services for all our products ensuring peace of mind
@@ -394,9 +393,430 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section style="padding: 60px 0; background-color: #e7f1ff;">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2 style="color: #0d6efd; font-weight: bold;">Frequently Asked Questions</h2>
+                <p style="color: #6c757d; font-size: 18px;">
+                    Have questions about RKM TECH SERV products? Find answers below.
+                </p>
+            </div>
 
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            What electronic devices do you offer?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faqHeading1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            RKM TECH SERV provides a range of electronic devices including tablets, smart watches, and
+                            other Makhana electronic products.
+                        </div>
+                    </div>
+                </div>
 
-    
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Do you provide cables and connectivity solutions?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faqHeading2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Yes! We provide high-quality cables and connectivity solutions for smooth device operation
+                            and performance.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Are your batteries compatible with all devices?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faqHeading3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            We provide batteries compatible with a wide range of devices including tablets, smart
+                            watches, and other Makhana electronics.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Do you offer repair services for tablets and watches?
+                        </button>
+                    </h2>
+                    <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faqHeading4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Yes! Our experts provide repair and troubleshooting services for tablets, smart watches, and
+                            other Makhana devices.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            What warranty do you provide on products?
+                        </button>
+                    </h2>
+                    <div id="faq5" class="accordion-collapse collapse" aria-labelledby="faqHeading5"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            All our products come with comprehensive warranty and product support to ensure customer
+                            satisfaction.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Can I buy multiple products at once?
+                        </button>
+                    </h2>
+                    <div id="faq6" class="accordion-collapse collapse" aria-labelledby="faqHeading6"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Absolutely! You can purchase multiple Makhana electronic devices, cables, batteries, and
+                            watches at the same time.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Do you provide setup and installation services?
+                        </button>
+                    </h2>
+                    <div id="faq7" class="accordion-collapse collapse" aria-labelledby="faqHeading7"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Yes, we provide professional setup and installation services for smart watches, tablets, and
+                            other devices.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 8 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            How long does delivery take?
+                        </button>
+                    </h2>
+                    <div id="faq8" class="accordion-collapse collapse" aria-labelledby="faqHeading8"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Delivery time depends on your location and the products purchased. Typically, it takes 3-7
+                            business days for most areas.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 9 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq9" aria-expanded="false" aria-controls="faq9"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Do you offer technical support for products?
+                        </button>
+                    </h2>
+                    <div id="faq9" class="accordion-collapse collapse" aria-labelledby="faqHeading9"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Yes! Our team provides full technical support for all RKM TECH SERV products including
+                            tablets, watches, and batteries.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 10 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faqHeading10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#faq10" aria-expanded="false" aria-controls="faq10"
+                            style="color: #0d6efd; background-color: #d0e4ff;">
+                            Can I return or exchange products if needed?
+                        </button>
+                    </h2>
+                    <div id="faq10" class="accordion-collapse collapse" aria-labelledby="faqHeading10"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body" style="color: #6c757d;">
+                            Yes, RKM TECH SERV provides return and exchange options according to our company policy for
+                            defective or unsatisfactory products.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section style="padding: 60px 0; background-color: #e3f2fd;">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2 style="color: #0d6efd; font-weight: bold;">Our Blog</h2>
+                <p style="color: #6c757d; font-size: 18px;">
+                    Explore the latest updates, tips, and insights on electronics, gadgets, and accessories from RKM
+                    TECH SERV.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/Batteries.jpg" class="card-img-top" alt="Blog Post 1">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Top 5 Tips to Extend Battery Life</h5>
+                            <p class="card-text" style="color: #0d47a1;">Learn how to maximize the performance and
+                                lifespan of your device batteries with simple daily habits.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/Watches.jpg" class="card-img-top" alt="Blog Post 2">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Smart Watch Setup Guide</h5>
+                            <p class="card-text" style="color: #0d47a1;">Step-by-step instructions to set up your smart
+                                watch for maximum efficiency and connectivity.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/Cables.jpg" class="card-img-top" alt="Blog Post 3">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Choosing the Right Cables for Your Devices
+                            </h5>
+                            <p class="card-text" style="color: #0d47a1;">Discover the best cables and connectivity
+                                options to ensure smooth operation of all your gadgets.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/Tablets.jpg" class="card-img-top" alt="Blog Post 4">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Tablet Maintenance Tips</h5>
+                            <p class="card-text" style="color: #0d47a1;">Keep your tablets running smoothly with our
+                                expert maintenance and care tips.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 5 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/Mobile_Phones.jpg" class="card-img-top" alt="Blog Post 5">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Top Gadgets of 2025</h5>
+                            <p class="card-text" style="color: #0d47a1;">Explore the most innovative electronics and
+                                smart gadgets available this year.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 6 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="assets/img/electronic.png" class="card-img-top" alt="Blog Post 6">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0d6efd;">Troubleshooting Common Device Issues</h5>
+                            <p class="card-text" style="color: #0d47a1;">Simple solutions to common problems with
+                                tablets, smart watches, and electronic accessories.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <div class="container-fluid py-5" style="background-color: #e3f2fd;">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2 class="animate__animated animate__fadeInDown" style="color: #0d6efd; font-weight: bold;">Contact Us
+                </h2>
+                <p class="animate__animated animate__fadeIn" style="color: #0d47a1; font-size: 18px;">
+                    Get in touch with RKM TECH SERV for inquiries, support, or feedback regarding our products and
+                    services.
+                    Fill the form below and reach out to us directly on WhatsApp for quick assistance!
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Map -->
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d458487.22694729315!2d85.76611687281226!3d26.13377765239997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGround%20Floor%2C%20Majhaura%2C%20Ward%20no-15%2C%20Benipur%20%2CPo-Bahera%2C%20Darbhanga%2C%20Bihar%20%E2%80%93%20847201%2C%20Nearby%20Indian%20Oil%20Petrol%20Pump!5e0!3m2!1sen!2sin!4v1763539375554!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0; border-radius:10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+                    <div class="card shadow-sm p-4 border-0" style="border-radius: 15px; background-color: #ffffff;">
+                        <form id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label" style="color: #0d6efd;">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label" style="color: #0d6efd;">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="number" class="form-label" style="color: #0d6efd;">Phone Number</label>
+                                <input type="tel" class="form-control" id="number" placeholder="Your Phone Number"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label" style="color: #0d6efd;">Message</label>
+                                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100"
+                                style="background-color: #0d6efd; border:none;">Send via WhatsApp</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-white" style="background-color: #0d6efd; padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">RKM TECH SERV</h5>
+                    <p>Providing top-notch services and products including tablets, smart watches, batteries, cables,
+                        and Makhana electronics to keep you connected and powered.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">Quick Links</h5>
+                    <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+                    <p><a href="#" class="text-white text-decoration-none">About</a></p>
+                    <p><a href="#" class="text-white text-decoration-none">Services</a></p>
+                    <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
+                    <p><a href="#" class="text-white text-decoration-none">Contact</a></p>
+                </div>
+
+                <!-- Contact Info & Social -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
+                        Darbhanga, Bihar – 847201</p>
+                    <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
+                    <p><i class="fas fa-phone-alt me-2"></i>6206767417</p>
+
+                    <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+
+            <hr style="border-color: rgba(255,255,255,0.3);">
+
+            <!-- Newsletter Subscription -->
+            <div class="row mb-4">
+                <div class="col-md-6 mx-auto text-center">
+                    <h5 style="font-weight: bold;">Subscribe to our Newsletter</h5>
+                    <p>Get the latest updates, offers, and news about our products and services.</p>
+                    <form class="d-flex justify-content-center" action="#" method="POST">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email"
+                            style="max-width: 300px;" required>
+                        <button type="submit" class="btn btn-light text-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container text-center py-3">
+                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                    <span>&copy; 2025 RKM TECH SERV. All Rights Reserved.</span>
+                    <span> | Designed By <a href="https://trade4export.com/"
+                            class="text-white text-decoration-underline" target="_blank">Trade4Export</a></span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- WhatsApp Form Script -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var number = document.getElementById('number').value;
+            var message = document.getElementById('message').value;
+
+            var whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
+            var whatsappURL = `https://wa.me/916206767417?text=${whatsappMessage}`; // Replace with your WhatsApp number
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
+
     <!-- bootstrap js link -->
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <!-- AOS JS -->
