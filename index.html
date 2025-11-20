@@ -14,35 +14,12 @@
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-</head>
-
-<body>
-
-    <!-- Topbar -->
-    <div class="container-fluid topbar">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div>
-                    <span><i class="bi bi-envelope"></i> rkmtechserv@gmail.com</span>
-                    <span><i class="bi bi-telephone"></i> +91 6206767417</span>
-                </div>
-                <div>
-                    <i class="bi bi-instagram"></i>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-linkedin"></i>
-                    <i class="bi bi-whatsapp"></i>
-                    <i class="bi bi-twitter"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <style>
         /* Mega Menu Centered */
         .dropdown-menu.mega-menu {
             width: 90vw;
             max-width: 1200px;
-            left: 50% !important;
+            left: 100% !important;
             /* Center horizontally */
             transform: translateX(-50%) !important;
             top: 100%;
@@ -96,15 +73,49 @@
         }
     </style>
 
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="container-fluid topbar">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <span><i class="bi bi-envelope"></i> rkmtechserv@gmail.com</span>
+                    <span><i class="bi bi-telephone"></i> +91 6206767417 | 9643612318 | 8409812065 </span>
+                </div>
+                <div>
+                    <i class="bi bi-instagram"><a href=""></a></i>
+                    <a
+                        href="https://www.facebook.com/story.php?story_fbid=122114388506991643&id=61579749293618&rdid=awNaGaKfSMkME2On#"><i
+                            class="bi bi-facebook"></i></a>
+                    <a
+                        href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGP2sgomOO3FAAAAZqgtDkIYXAYPkYVsgSp6X8AljA-TCYpAHHxh2KhZ00wzOp4H_2z8GiJwTROXE_JoE6pzLVLf1GXuoHjRaDQe5X3zOkyOIJiQ85GrdU8A-TcNbdASduHZV8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frkm-tech-serv-383934320"><i
+                            class="bi bi-linkedin"> </i></a>
+                    <a href=""></a><i class="bi bi-whatsapp"></i></a>
+                    <a href=""></a><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.youtube.com/@rkmtechserv"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">RKM TECH SERV</a>
+
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/Rkm_logo.jpeg" height="60px" width="100%" alt="">
+            </a>
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-center" id="navMenu">
                 <ul class="navbar-nav mb-2 mb-lg-0">
+
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
 
@@ -114,63 +125,70 @@
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Products
                         </a>
+
                         <div class="dropdown-menu mega-menu p-3" aria-labelledby="productsDropdown">
                             <div class="d-flex">
+
                                 <div class="mega-column">
                                     <h3>Cables</h3>
-                                    <a class="dropdown-item" href="#">Electric Cables</a>
-                                    <a class="dropdown-item" href="#">Data Cables</a>
-                                    <a class="dropdown-item" href="#">Fibre Optic Cables</a>
-                                    <a class="dropdown-item" href="#">Other Cables</a>
+                                    <a class="dropdown-item" href="electric_cables.php">Electric Cables</a>
+                                    <a class="dropdown-item" href="data_cables.php">Data Cables</a>
+                                    <a class="dropdown-item" href="fibre_optic_cables.php">Fibre Optic Cables</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Lighting</h3>
-                                    <a class="dropdown-item" href="#">LED Bulbs</a>
-                                    <a class="dropdown-item" href="#">Tube Lights</a>
-                                    <a class="dropdown-item" href="#">Decorative Lights</a>
-                                    <a class="dropdown-item" href="#">Fluorescent Lights</a>
-                                    <a class="dropdown-item" href="#">All Types of Lights</a>
+                                    <a class="dropdown-item" href="led_bulbs.php">LED Bulbs</a>
+                                    <a class="dropdown-item" href="tube_lights.php">Tube Lights</a>
+                                    <a class="dropdown-item" href="decorative_lights.php">Decorative Lights</a>
+                                    <a class="dropdown-item" href="fluorescent_lights.php">Fluorescent Lights</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Electrical & Electronics</h3>
-                                    <a class="dropdown-item" href="#">Fans</a>
-                                    <a class="dropdown-item" href="#">Switches & Sockets</a>
-                                    <a class="dropdown-item" href="#">Other Electronics</a>
+                                    <a class="dropdown-item" href="fans.php">Fans</a>
+                                    <a class="dropdown-item" href="switches_sockets.php">Switches & Sockets</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Displays</h3>
-                                    <a class="dropdown-item" href="#">Commercial Displays</a>
-                                    <a class="dropdown-item" href="#">Interactive Displays</a>
-                                    <a class="dropdown-item" href="#">Video Walls</a>
+                                    <a class="dropdown-item" href="commercial_displays.php">Commercial Displays</a>
+                                    <a class="dropdown-item" href="interactive_displays.php">Interactive Displays</a>
+                                    <a class="dropdown-item" href="video_walls.php">Video Walls</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Security & Surveillance</h3>
-                                    <a class="dropdown-item" href="#">CCTV Cameras</a>
-                                    <a class="dropdown-item" href="#">CCTV Accessories</a>
+                                    <a class="dropdown-item" href="cctv_cameras.php">CCTV Cameras</a>
+                                    <a class="dropdown-item" href="cctv_accessories.php">CCTV Accessories</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Phones & Smart Devices</h3>
-                                    <a class="dropdown-item" href="#">Keypad Phones</a>
-                                    <a class="dropdown-item" href="#">Smartphones</a>
-                                    <a class="dropdown-item" href="#">Smart Watches</a>
-                                    <a class="dropdown-item" href="#">Tablets</a>
+                                    <a class="dropdown-item" href="keypad_phones.php">Keypad Phones</a>
+                                    <a class="dropdown-item" href="smartphones.php">Smartphones</a>
+                                    <a class="dropdown-item" href="smart_watch.php">Smart Watches</a>
+                                    <a class="dropdown-item" href="tablets.php">Tablets</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Food & Snacks</h3>
-                                    <a class="dropdown-item" href="#">Makhana</a>
+                                    <a class="dropdown-item" href="makhana.php">Makhana</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Batteries & Accessories</h3>
-                                    <a class="dropdown-item" href="#">Batteries</a>
-                                    <a class="dropdown-item" href="#">Battery Chargers</a>
-                                    <a class="dropdown-item" href="#">Other Accessories</a>
+                                    <a class="dropdown-item" href="batteries.php">Batteries</a>
+                                    <a class="dropdown-item" href="battery_chargers.php">Battery Chargers</a>
                                 </div>
+
                                 <div class="mega-column">
                                     <h3>Gifting Items</h3>
-                                    <a class="dropdown-item" href="#">Corporate Gifts</a>
-                                    <a class="dropdown-item" href="#">Personal Gifts</a>
-                                    <a class="dropdown-item" href="#">Customized Gifts</a>
+                                    <a class="dropdown-item" href="corporate_gifts.php">Corporate Gifts</a>
+                                    <a class="dropdown-item" href="personal_gifts.php">Personal Gifts</a>
+                                    <a class="dropdown-item" href="customized_gifts.php">Customized Gifts</a>
                                 </div>
+
                             </div>
                         </div>
                     </li>
@@ -181,13 +199,18 @@
                 </ul>
 
                 <!-- Enquiry Button -->
-                <div class="d-flex ms-lg-5">
-                    <button class="btn btn-outline-primary" data-bs-toggle="modal"
-                        data-bs-target="#enquiryModal">Enquiry</button>
+                <div class="d-flex justify-content-end ms-lg-5">
+                    <button class="btn" style="color: #ff914c; border: 2px solid #ff914c;" data-bs-toggle="modal"
+                        data-bs-target="#enquiryModal">
+                        Enquiry Now
+                    </button>
                 </div>
+
+
             </div>
         </div>
     </nav>
+
 
     <!-- Hero sections -->
     <section class="hero-section">
@@ -258,7 +281,7 @@
     </section>
 
     <!-- products sections  -->
-    <div class="container-fluid" style="padding: 60px 0; background-color: #ffffff;">
+    <div class="container-fluid" style="padding: 60px 0; background-color: #201a74;">
         <div class="container">
             <!-- Section Heading -->
             <div class="text-center mb-5">
@@ -269,112 +292,417 @@
             </div>
 
             <div class="row justify-content-center g-4">
-                <!-- Product Card Template -->
+
+                <!-- ===== START OF PRODUCT CARDS ===== -->
+
+                <!-- Batteries -->
                 <div class="col-md-3">
                     <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Batteries.jpg" class="card-img-top" alt="Batteries"
+                        <img src="assets/images/Batteries.jpg" class="card-img-top" alt="Batteries"
                             style="border-radius: 10px 10px 0 0;">
                         <div class="card-body text-center">
                             <h5 class="card-title" style="color: #0B5ED7;">Batteries</h5>
                             <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Reliable and long-lasting batteries for your mobile phones, tablets, and electronic
-                                devices.
+                                Reliable and long-lasting batteries for mobile phones and electronic devices.
                             </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                            <a href="batteries.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Video Walls -->
                 <div class="col-md-3">
                     <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Cables.jpg" class="card-img-top" alt="Cables"
+                        <img src="assets/images/Video_Walls.jpg" class="card-img-top" alt="Video Walls"
                             style="border-radius: 10px 10px 0 0;">
                         <div class="card-body text-center">
-                            <h5 class="card-title" style="color: #0B5ED7;">Cables</h5>
+                            <h5 class="card-title" style="color: #0B5ED7;">Video Walls</h5>
                             <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Durable and high-speed cables for seamless connectivity of all your devices.
+                                High-definition video walls for commercial displays and digital signage.
                             </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                            <a href="video_walls.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Tube Lights -->
                 <div class="col-md-3">
                     <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/electronic.png" class="card-img-top" alt="Electronic"
+                        <img src="assets/images/Tube_Lights.jpg" class="card-img-top" alt="Tube Lights"
                             style="border-radius: 10px 10px 0 0;">
                         <div class="card-body text-center">
-                            <h5 class="card-title" style="color: #0B5ED7;">Electronic Devices</h5>
+                            <h5 class="card-title" style="color: #0B5ED7;">Tube Lights</h5>
                             <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Wide range of electronics including gadgets and smart home solutions.
+                                Energy-efficient tube lights for home, office and industrial lighting.
                             </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                            <a href="tube_lights.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Tablets -->
                 <div class="col-md-3">
                     <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Makhana.jpg" class="card-img-top" alt="Makhana"
-                            style="border-radius: 10px 10px 0 0;">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="color: #0B5ED7;">Makhana</h5>
-                            <p class="card-text" style="color: #495057; font-size: 14px;">
-                                High-quality Makhana products for healthy snacking and lifestyle.
-                            </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
-                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Mobile_Phones.jpg" class="card-img-top" alt="Mobile Phones"
-                            style="border-radius: 10px 10px 0 0;">
-                        <div class="card-body text-center">
-                            <h5 class="card-title" style="color: #0B5ED7;">Mobile Phones</h5>
-                            <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Latest smartphones with innovative features and superior performance.
-                            </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3">
-                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
-                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Tablets.jpg" class="card-img-top" alt="Tablets"
+                        <img src="assets/images/tablets.jpg" class="card-img-top" alt="Tablets"
                             style="border-radius: 10px 10px 0 0;">
                         <div class="card-body text-center">
                             <h5 class="card-title" style="color: #0B5ED7;">Tablets</h5>
                             <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Lightweight and powerful tablets perfect for work, study, and entertainment.
+                                Latest tablets with powerful processors and vibrant displays for work or entertainment.
                             </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                            <a href="tablets.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
                         </div>
                     </div>
                 </div>
 
+                <!-- Switches & Sockets -->
                 <div class="col-md-3">
                     <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-                        <img src="assets/img/Watches.jpg" class="card-img-top" alt="Watches"
+                        <img src="assets/images/Switches_Sockets.jpg" class="card-img-top" alt="Switches & Sockets"
                             style="border-radius: 10px 10px 0 0;">
                         <div class="card-body text-center">
-                            <h5 class="card-title" style="color: #0B5ED7;">Watches</h5>
+                            <h5 class="card-title" style="color: #0B5ED7;">Switches & Sockets</h5>
                             <p class="card-text" style="color: #495057; font-size: 14px;">
-                                Stylish and smart watches to keep you connected and punctual.
+                                High-quality electrical switches and sockets designed for safety and durability.
                             </p>
-                            <a href="#" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                            <a href="switches_sockets.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Smartphones -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Smartphones.jpeg" class="card-img-top" alt="Smartphones"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Smartphones</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Latest smartphones with advanced camera systems and smooth performance.
+                            </p>
+                            <a href="smartphones.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Smart Watch -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/smart_watch.jpeg" class="card-img-top" alt="Smart Watch"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Smart Watches</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Stylish smartwatches with health tracking and connectivity features.
+                            </p>
+                            <a href="smart_watch.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Gifts -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Personal_Gifts.webp" class="card-img-top" alt="Personal Gifts"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Personal Gifts</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Unique personalized gifts perfect for birthdays, anniversaries and celebrations.
+                            </p>
+                            <a href="personal_gifts.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Makhana -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/makhana.jpeg" class="card-img-top" alt="Makhana"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Makhana</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Healthy and crunchy makhana snacks packed with nutrition and taste.
+                            </p>
+                            <a href="makhana.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LED Bulbs -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/LED_Bulbs.jpg" class="card-img-top" alt="LED Bulbs"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">LED Bulbs</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Bright, long-lasting and energy-saving LED bulbs for every lighting need.
+                            </p>
+                            <a href="led_bulbs.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Keypad Phones -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Keypad_Phones.jpeg" class="card-img-top" alt="Keypad Phones"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Keypad Phones</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Durable keypad phones with strong battery life and essential features.
+                            </p>
+                            <a href="keypad_phones.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Displays -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Interactive_Displays.webp" class="card-img-top"
+                            alt="Interactive Displays" style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Interactive Displays</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Smart interactive displays ideal for classrooms, meetings and presentations.
+                            </p>
+                            <a href="interactive_displays.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fluorescent Lights -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Fluorescent_Lights.webp" class="card-img-top" alt="Fluorescent Lights"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Fluorescent Lights</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Bright fluorescent lamps providing efficient lighting for large spaces.
+                            </p>
+                            <a href="fluorescent_lights.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fibre Optic Cables -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Fibre_Optic_Cables.jpg" class="card-img-top" alt="Fibre Optic Cables"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Fibre Optic Cables</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                High-speed fibre optic cables for ultra-fast internet and data transfer.
+                            </p>
+                            <a href="fibre_optic_cables.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fans -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Fans.jpg" class="card-img-top" alt="Fans"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Fans</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Energy-efficient ceiling and table fans providing powerful cooling.
+                            </p>
+                            <a href="fans.php" class="btn" style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electric Cables -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Electric_Cables.jpg" class="card-img-top" alt="Electric Cables"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Electric Cables</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Safe and durable electric cables for wiring residential and commercial spaces.
+                            </p>
+                            <a href="electric_cables.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Decorative Lights -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Decorative_Lights.jpg" class="card-img-top" alt="Decorative Lights"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Decorative Lights</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Beautiful decorative lighting to enhance homes, events and interiors.
+                            </p>
+                            <a href="decorative_lights.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Cables -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Data_Cables.jpg" class="card-img-top" alt="Data Cables"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Data Cables</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Fast-charging and high-speed data transfer cables for all devices.
+                            </p>
+                            <a href="data_cables.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customized Gifts -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Customized_Gifts.jpg" class="card-img-top" alt="Customized Gifts"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Customized Gifts</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Fully customizable gift items tailor-made for personal and corporate events.
+                            </p>
+                            <a href="customized_gifts.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Corporate Gifts -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Corporate_Gifts.webp" class="card-img-top" alt="Corporate Gifts"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Corporate Gifts</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Premium corporate gifting solutions for clients and employees.
+                            </p>
+                            <a href="corporate_gifts.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commercial Displays -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Commercial_Displays.jpg" class="card-img-top" alt="Commercial Displays"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Commercial Displays</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Professional commercial display screens for advertising and branding.
+                            </p>
+                            <a href="commercial_displays.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CCTV Cameras -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/CCTV_Cameras.webp" class="card-img-top" alt="CCTV Cameras"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">CCTV Cameras</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                High-resolution CCTV cameras for home and business security.
+                            </p>
+                            <a href="cctv_cameras.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CCTV Accessories -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/CCTV_Accessories.jpg" class="card-img-top" alt="CCTV Accessories"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">CCTV Accessories</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Essential accessories including connectors, DVRs and installation equipment.
+                            </p>
+                            <a href="cctv_accessories.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Battery Chargers -->
+                <div class="col-md-3">
+                    <div class="card h-100 shadow-sm border-0" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+                        <img src="assets/images/Battery_Chargers.webp" class="card-img-top" alt="Battery Chargers"
+                            style="border-radius: 10px 10px 0 0;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title" style="color: #0B5ED7;">Battery Chargers</h5>
+                            <p class="card-text" style="color: #495057; font-size: 14px;">
+                                Fast and reliable battery chargers for all mobile and electronic devices.
+                            </p>
+                            <a href="battery_chargers.php" class="btn"
+                                style="background-color: #0B5ED7; color: #fff;">Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== END OF PRODUCT CARDS ===== -->
 
             </div>
         </div>
@@ -865,7 +1193,7 @@
                     <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
                         Darbhanga, Bihar – 847201</p>
                     <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
-                    <p><i class="fas fa-phone-alt me-2"></i>6206767417</p>
+                    <p><i class="fas fa-phone-alt me-2"></i>6206767417 | 9643612318 | 8409812065 </p>
 
                     <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
                     <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
