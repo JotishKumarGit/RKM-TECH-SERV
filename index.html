@@ -13,6 +13,9 @@
 
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+
+
 </head>
 
 <body>
@@ -36,62 +39,158 @@
         </div>
     </div>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
+    <style>
+        /* Mega Menu Centered */
+        .dropdown-menu.mega-menu {
+            width: 90vw;
+            max-width: 1200px;
+            left: 50% !important;
+            /* Center horizontally */
+            transform: translateX(-50%) !important;
+            top: 100%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 6px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .mega-column {
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+
+        .mega-column h3 {
+            margin-top: 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .mega-column a {
+            color: #333;
+            display: block;
+            padding: 4px 0;
+            text-decoration: none;
+        }
+
+        .mega-column a:hover {
+            text-decoration: underline;
+        }
+
+        /* Flex layout for desktop */
+        .mega-menu .d-flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 992px) {
+            .dropdown-menu.mega-menu {
+                position: static !important;
+                transform: none !important;
+                width: 100%;
+                padding: 15px;
+            }
+
+            .mega-column {
+                margin: 10px 0;
+            }
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">RKM TECH SERV</a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-center" id="navMenu">
                 <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-
-                    <!-- Products Dropdown -->
+                    <!-- Mega Menu -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Makhana</a></li>
-                            <li><a class="dropdown-item" href="#">Batteries</a></li>
-                            <li><a class="dropdown-item" href="#">Electronics</a></li>
-                            <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
-                            <li><a class="dropdown-item" href="#">Watches</a></li>
-                            <li><a class="dropdown-item" href="#">Tablets</a></li>
-                            <li><a class="dropdown-item" href="#">Cables</a></li>
-                        </ul>
+                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Products
+                        </a>
+                        <div class="dropdown-menu mega-menu p-3" aria-labelledby="productsDropdown">
+                            <div class="d-flex">
+                                <div class="mega-column">
+                                    <h3>Cables</h3>
+                                    <a class="dropdown-item" href="#">Electric Cables</a>
+                                    <a class="dropdown-item" href="#">Data Cables</a>
+                                    <a class="dropdown-item" href="#">Fibre Optic Cables</a>
+                                    <a class="dropdown-item" href="#">Other Cables</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Lighting</h3>
+                                    <a class="dropdown-item" href="#">LED Bulbs</a>
+                                    <a class="dropdown-item" href="#">Tube Lights</a>
+                                    <a class="dropdown-item" href="#">Decorative Lights</a>
+                                    <a class="dropdown-item" href="#">Fluorescent Lights</a>
+                                    <a class="dropdown-item" href="#">All Types of Lights</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Electrical & Electronics</h3>
+                                    <a class="dropdown-item" href="#">Fans</a>
+                                    <a class="dropdown-item" href="#">Switches & Sockets</a>
+                                    <a class="dropdown-item" href="#">Other Electronics</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Displays</h3>
+                                    <a class="dropdown-item" href="#">Commercial Displays</a>
+                                    <a class="dropdown-item" href="#">Interactive Displays</a>
+                                    <a class="dropdown-item" href="#">Video Walls</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Security & Surveillance</h3>
+                                    <a class="dropdown-item" href="#">CCTV Cameras</a>
+                                    <a class="dropdown-item" href="#">CCTV Accessories</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Phones & Smart Devices</h3>
+                                    <a class="dropdown-item" href="#">Keypad Phones</a>
+                                    <a class="dropdown-item" href="#">Smartphones</a>
+                                    <a class="dropdown-item" href="#">Smart Watches</a>
+                                    <a class="dropdown-item" href="#">Tablets</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Food & Snacks</h3>
+                                    <a class="dropdown-item" href="#">Makhana</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Batteries & Accessories</h3>
+                                    <a class="dropdown-item" href="#">Batteries</a>
+                                    <a class="dropdown-item" href="#">Battery Chargers</a>
+                                    <a class="dropdown-item" href="#">Other Accessories</a>
+                                </div>
+                                <div class="mega-column">
+                                    <h3>Gifting Items</h3>
+                                    <a class="dropdown-item" href="#">Corporate Gifts</a>
+                                    <a class="dropdown-item" href="#">Personal Gifts</a>
+                                    <a class="dropdown-item" href="#">Customized Gifts</a>
+                                </div>
+                            </div>
+                        </div>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                 </ul>
 
-                <!-- Search -->
+                <!-- Enquiry Button -->
                 <div class="d-flex ms-lg-5">
-                    <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#enquiryModal">Enquiry</button>
+                    <button class="btn btn-outline-primary" data-bs-toggle="modal"
+                        data-bs-target="#enquiryModal">Enquiry</button>
                 </div>
-
             </div>
         </div>
     </nav>
+
 
     <!-- Hero sections -->
     <section class="hero-section">
@@ -158,7 +257,7 @@
         </div>
     </section>
 
-    <!-- products -->
+    <!-- products sections  -->
     <div class="container-fluid" style="padding: 60px 0; background-color: #ffffff;">
         <div class="container">
             <!-- Section Heading -->
@@ -280,6 +379,8 @@
             </div>
         </div>
     </div>
+
+
 
     <!-- services -->
     <section style="padding: 60px 0; background-color: #f8f9fa;">
