@@ -77,20 +77,20 @@
 
 <body>
 
-<!-- header -->
-<?php include('header.php') ?>
+    <!-- header -->
+    <?php include('header.php') ?>
 
-<nav class="breadcrumb-hero" aria-label="breadcrumb">
-  <div class="overlay"></div>
+    <nav class="breadcrumb-hero" aria-label="breadcrumb">
+        <div class="overlay"></div>
 
-  <ol class="breadcrumb centered-text">
-    <li class="breadcrumb-item"><a href="#">Home</a></li>
-    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-    <li class="breadcrumb-item active" style="color: #f9f9f9;" aria-current="page">About Us</li>
-  </ol>
-</nav>
+        <ol class="breadcrumb centered-text">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+            <li class="breadcrumb-item active" style="color: #f9f9f9;" aria-current="page">About Us</li>
+        </ol>
+    </nav>
 
- <!-- About Us Section -->
+    <!-- About Us Section -->
     <section style="padding: 60px 0; background-color: #edf0f3;">
         <div class="container">
             <!-- About Us Heading -->
@@ -105,7 +105,7 @@
                 <!-- Image Content -->
                 <div class="col-md-6 text-center">
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
-                        <img src="assets/img/Watches.jpg" alt="Electronics and Watches"
+                        <img src="assets/img/Corporate_Gifts.webp" alt="Electronics and Watches"
                             style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                     </div>
                 </div>
@@ -142,5 +142,5 @@
         </div>
     </section>
 
-<!-- footer -->
-<?php include('footer.php') ?> 
+    <!-- footer -->
+    <?php include('footer.php') ?>
