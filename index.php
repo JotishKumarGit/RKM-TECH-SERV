@@ -14,204 +14,157 @@
     <!-- AOS CSS -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
-    <style>
-        /* Mega Menu Centered */
-        .dropdown-menu.mega-menu {
-            width: 90vw;
-            max-width: 1200px;
-            left: 100% !important;
-            /* Center horizontally */
-            transform: translateX(-50%) !important;
-            top: 100%;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 6px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .mega-column {
-            flex: 1 1 200px;
-            margin: 10px;
-        }
-
-        .mega-column h3 {
-            margin-top: 0;
-            font-size: 16px;
-            color: #333;
-        }
-
-        .mega-column a {
-            color: #333;
-            display: block;
-            padding: 4px 0;
-            text-decoration: none;
-        }
-
-        .mega-column a:hover {
-            text-decoration: underline;
-        }
-
-        /* Flex layout for desktop */
-        .mega-menu .d-flex {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 992px) {
-            .dropdown-menu.mega-menu {
-                position: static !important;
-                transform: none !important;
-                width: 100%;
-                padding: 15px;
-            }
-
-            .mega-column {
-                margin: 10px 0;
-            }
-        }
-    </style>
 
 </head>
 
 <body>
 
-    <!-- Topbar -->
-    <div class="container-fluid topbar">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div>
-                    <span><i class="bi bi-envelope"></i> rkmtechserv@gmail.com</span>
-                    <span><i class="bi bi-telephone"></i> +91 6206767417 | 9643612318 | 8409812065 </span>
-                </div>
-                <div>
-                    <i class="bi bi-instagram"><a href=""></a></i>
-                    <a
-                        href="https://www.facebook.com/story.php?story_fbid=122114388506991643&id=61579749293618&rdid=awNaGaKfSMkME2On#"><i
-                            class="bi bi-facebook"></i></a>
-                    <a
-                        href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGP2sgomOO3FAAAAZqgtDkIYXAYPkYVsgSp6X8AljA-TCYpAHHxh2KhZ00wzOp4H_2z8GiJwTROXE_JoE6pzLVLf1GXuoHjRaDQe5X3zOkyOIJiQ85GrdU8A-TcNbdASduHZV8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frkm-tech-serv-383934320"><i
-                            class="bi bi-linkedin"> </i></a>
-                    <a href=""></a><i class="bi bi-whatsapp"></i></a>
-                    <a href=""></a><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.youtube.com/@rkmtechserv"><i class="bi bi-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- header -->
+ 
+  <!-- Topbar -->
+  <div class="container-fluid topbar">
+      <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+              <div>
+                  <span><i class="bi bi-envelope"></i> rkmtechserv@gmail.com</span>
+                  <span><i class="bi bi-telephone"></i> +91 6206767417 </span>
+              </div>
+              <div>
+                  <i class="bi bi-instagram"><a href=""></a></i>
+                  <a
+                      href="https://www.facebook.com/story.php?story_fbid=122114388506991643&id=61579749293618&rdid=awNaGaKfSMkME2On#"><i
+                          class="bi bi-facebook"></i></a>
+                  <a
+                      href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGP2sgomOO3FAAAAZqgtDkIYXAYPkYVsgSp6X8AljA-TCYpAHHxh2KhZ00wzOp4H_2z8GiJwTROXE_JoE6pzLVLf1GXuoHjRaDQe5X3zOkyOIJiQ85GrdU8A-TcNbdASduHZV8=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frkm-tech-serv-383934320"><i
+                          class="bi bi-linkedin"> </i></a>
+                  <a href=""></a><i class="bi bi-whatsapp"></i></a>
+                  <a href=""></a><i class="bi bi-twitter"></i></a>
+                  <a href="https://www.youtube.com/@rkmtechserv"><i class="bi bi-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
 
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/Rkm_logo.jpeg" height="60px" width="100%" alt="">
-            </a>
+          <a class="navbar-brand" href="index.php">
+              <img src="assets/img/Rkm_logo.jpeg" height="60px" width="100%" alt="">
+          </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div class="collapse navbar-collapse justify-content-center" id="navMenu">
-                <ul class="navbar-nav mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse justify-content-center" id="navMenu">
+              <ul class="navbar-nav mb-2 mb-lg-0">
 
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
 
-                    <!-- Mega Menu -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Products
-                        </a>
+                  <!-- Mega Menu -->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                          data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                      </a>
 
-                        <div class="dropdown-menu mega-menu p-3" aria-labelledby="productsDropdown">
-                            <div class="d-flex">
+                      <div class="dropdown-menu mega-menu p-3" aria-labelledby="productsDropdown">
+                          <div class="d-flex">
 
-                                <div class="mega-column">
-                                    <h3>Cables</h3>
-                                    <a class="dropdown-item" href="electric_cables.php">Electric Cables</a>
-                                    <a class="dropdown-item" href="data_cables.php">Data Cables</a>
-                                    <a class="dropdown-item" href="fibre_optic_cables.php">Fibre Optic Cables</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Cables</h3>
+                                  <a class="dropdown-item" href="electric_cables.php">Electric Cables</a>
+                                  <a class="dropdown-item" href="data_cables.php">Data Cables</a>
+                                  <a class="dropdown-item" href="fibre_optic_cables.php">Fibre Optic Cables</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Lighting</h3>
-                                    <a class="dropdown-item" href="led_bulbs.php">LED Bulbs</a>
-                                    <a class="dropdown-item" href="tube_lights.php">Tube Lights</a>
-                                    <a class="dropdown-item" href="decorative_lights.php">Decorative Lights</a>
-                                    <a class="dropdown-item" href="fluorescent_lights.php">Fluorescent Lights</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Lighting</h3>
+                                  <a class="dropdown-item" href="led_bulbs.php">LED Bulbs</a>
+                                  <a class="dropdown-item" href="tube_lights.php">Tube Lights</a>
+                                  <a class="dropdown-item" href="decorative_lights.php">Decorative Lights</a>
+                                  <a class="dropdown-item" href="fluorescent_lights.php">Fluorescent Lights</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Electrical & Electronics</h3>
-                                    <a class="dropdown-item" href="fans.php">Fans</a>
-                                    <a class="dropdown-item" href="switches_sockets.php">Switches & Sockets</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Electrical & Electronics</h3>
+                                  <a class="dropdown-item" href="fans.php">Fans</a>
+                                  <a class="dropdown-item" href="switches_sockets.php">Switches & Sockets</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Displays</h3>
-                                    <a class="dropdown-item" href="commercial_displays.php">Commercial Displays</a>
-                                    <a class="dropdown-item" href="interactive_displays.php">Interactive Displays</a>
-                                    <a class="dropdown-item" href="video_walls.php">Video Walls</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Displays</h3>
+                                  <a class="dropdown-item" href="commercial_displays.php">Commercial Displays</a>
+                                  <a class="dropdown-item" href="interactive_displays.php">Interactive Displays</a>
+                                  <a class="dropdown-item" href="video_walls.php">Video Walls</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Security & Surveillance</h3>
-                                    <a class="dropdown-item" href="cctv_cameras.php">CCTV Cameras</a>
-                                    <a class="dropdown-item" href="cctv_accessories.php">CCTV Accessories</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Security & Surveillance</h3>
+                                  <a class="dropdown-item" href="cctv_cameras.php">CCTV Cameras</a>
+                                  <a class="dropdown-item" href="cctv_accessories.php">CCTV Accessories</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Phones & Smart Devices</h3>
-                                    <a class="dropdown-item" href="keypad_phones.php">Keypad Phones</a>
-                                    <a class="dropdown-item" href="smartphones.php">Smartphones</a>
-                                    <a class="dropdown-item" href="smart_watch.php">Smart Watches</a>
-                                    <a class="dropdown-item" href="tablets.php">Tablets</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Phones & Smart Devices</h3>
+                                  <a class="dropdown-item" href="keypad_phones.php">Keypad Phones</a>
+                                  <a class="dropdown-item" href="smartphones.php">Smartphones</a>
+                                  <a class="dropdown-item" href="smart_watch.php">Smart Watches</a>
+                                  <a class="dropdown-item" href="tablets.php">Tablets</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Food & Snacks</h3>
-                                    <a class="dropdown-item" href="makhana.php">Makhana</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Food & Snacks</h3>
+                                  <a class="dropdown-item" href="makhana.php">Makhana</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Batteries & Accessories</h3>
-                                    <a class="dropdown-item" href="batteries.php">Batteries</a>
-                                    <a class="dropdown-item" href="battery_chargers.php">Battery Chargers</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Batteries & Accessories</h3>
+                                  <a class="dropdown-item" href="batteries.php">Batteries</a>
+                                  <a class="dropdown-item" href="battery_chargers.php">Battery Chargers</a>
+                              </div>
 
-                                <div class="mega-column">
-                                    <h3>Gifting Items</h3>
-                                    <a class="dropdown-item" href="corporate_gifts.php">Corporate Gifts</a>
-                                    <a class="dropdown-item" href="personal_gifts.php">Personal Gifts</a>
-                                    <a class="dropdown-item" href="customized_gifts.php">Customized Gifts</a>
-                                </div>
+                              <div class="mega-column">
+                                  <h3>Gifting Items</h3>
+                                  <a class="dropdown-item" href="corporate_gifts.php">Corporate Gifts</a>
+                                  <a class="dropdown-item" href="personal_gifts.php">Personal Gifts</a>
+                                  <a class="dropdown-item" href="customized_gifts.php">Customized Gifts</a>
+                              </div>
 
-                            </div>
-                        </div>
-                    </li>
+                          </div>
+                      </div>
+                  </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
+                  <li class="nav-item"><a class="nav-link" href="services.php">Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://rkmtechserv.blogspot.com/">Blog</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+              </ul>
 
-                <!-- Enquiry Button -->
+              <!-- Enquiry Button -->
 
-                <div class="d-flex justify-content-end ms-lg-5">
-                    <button class="btn" style="color: #ff914c; border: 2px solid #ff914c; transition: 0.3s;"
-                        onmouseover="this.style.backgroundColor='#ff914c'; this.style.color='#fff';"
-                        onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff914c';"
-                        data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                        Enquiry Now
-                    </button>
-                </div>
+              <div class="d-flex justify-content-end ms-lg-5">
+                  <button class="btn" style="color: #ff914c; border: 2px solid #ff914c; transition: 0.3s;"
+                      onmouseover="this.style.backgroundColor='#ff914c'; this.style.color='#fff';"
+                      onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff914c';"
+                      data-bs-toggle="modal" data-bs-target="#enquiryModal">
+                      Enquiry
+                  </button>
+              </div>
+              <div class="d-flex justify-content-end ms-lg-5">
+                  <a href="assets/images/rkmTech.pdf" target="_blank" class="btn"
+                      style="color: #ff914c; border: 2px solid #ff914c; transition: 0.3s;"
+                      onmouseover="this.style.backgroundColor='#ff914c'; this.style.color='#fff';"
+                      onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff914c';">
+                      Enquiry
+                  </a>
+              </div>
 
-            </div>
-        </div>
-    </nav>
+
+          </div>
+      </div>
+  </nav>
 
 
     <!-- Hero sections -->
@@ -221,7 +174,7 @@
                 RKM TECH SERV
             </h1>
             <p class="hero-paragraph" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                Discover premium electronics, reliable batteries, stylish watches, essential cables, and much more — all
+                Discover premium electronics, reliable batteries, Smart watches and makhana essential cables, and much more — all
                 crafted to power your life and business with excellence.
             </p>
             <button class="btn btn-animated mt-4" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">
@@ -245,7 +198,7 @@
                 <!-- Image Content -->
                 <div class="col-md-6 text-center">
                     <div class="d-flex justify-content-center gap-3 flex-wrap">
-                        <img src="assets/img/Watches.jpg" alt="Electronics and Watches"
+                        <img src="assets/images/CCTV_Cameras.webp" alt="Electronics and Watches"
                             style="max-width: 100%; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
                     </div>
                 </div>
@@ -722,23 +675,52 @@
             </div>
 
             <div class="row g-4">
-                <!-- Service 1 -->
+                <!-- Service 7: Accounting Software (Tally, Busy) -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div class="card-body">
+                            <i class="bi bi-calculator fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
+                            <h5 class="card-title" style="color: #0B5ED7;">Accounting Software</h5>
+                            <p class="card-text" style="color: #495057;">
+                                Professional services for Tally, Busy, and other accounting software to manage your finances efficiently.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 8: Professional Accounting Services -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
+                        onmouseover="this.style.transform='translateY(-10px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div class="card-body">
+                            <i class="bi bi-briefcase fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
+                            <h5 class="card-title" style="color: #0B5ED7;">Professional Services</h5>
+                            <p class="card-text" style="color: #495057;">
+                                Comprehensive accounting, taxation, GST, TDS, and ITR services to ensure compliance and financial accuracy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service 1: Mobile & Tablet Repair -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
                         onmouseout="this.style.transform='translateY(0)'">
                         <div class="card-body">
                             <i class="bi bi-phone fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
-                            <h5 class="card-title" style="color: #0B5ED7; ">Mobile & Tablet Repair</h5>
-                            <p class="card-text" style="color: #495057; ">
-                                Expert repair services for smartphones and tablets including screen replacement, battery
-                                replacement, and software troubleshooting.
+                            <h5 class="card-title" style="color: #0B5ED7;">Mobile & Tablet Repair</h5>
+                            <p class="card-text" style="color: #495057;">
+                                Expert repair services for smartphones and tablets including screen replacement, battery replacement, and software troubleshooting.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 2 -->
+                <!-- Service 2: Battery & Power Solutions -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
@@ -747,14 +729,13 @@
                             <i class="bi bi-battery-full fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Battery & Power Solutions</h5>
                             <p class="card-text" style="color: #495057;">
-                                High-quality batteries and power solutions for all electronic devices ensuring
-                                long-lasting performance and reliability.
+                                High-quality batteries and power solutions for all electronic devices ensuring long-lasting performance and reliability.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 3 -->
+                <!-- Service 3: Electronics Installation -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
@@ -763,14 +744,13 @@
                             <i class="bi bi-gear fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Electronics Installation</h5>
                             <p class="card-text" style="color: #495057;">
-                                Professional setup and installation of electronic devices, cables, and smart home
-                                gadgets for seamless operation.
+                                Professional setup and installation of electronic devices, cables, and smart home gadgets for seamless operation.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 4 -->
+                <!-- Service 4: Smart Watch Services -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
@@ -779,14 +759,13 @@
                             <i class="bi bi-smartwatch fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Smart Watch Services</h5>
                             <p class="card-text" style="color: #495057;">
-                                Maintenance, setup, and troubleshooting services for smart watches to keep you connected
-                                and punctual.
+                                Maintenance, setup, and troubleshooting services for smart watches to keep you connected and punctual.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 5 -->
+                <!-- Service 5: Cable & Connectivity Services -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
@@ -795,14 +774,13 @@
                             <i class="bi bi-plug fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Cable & Connectivity Services</h5>
                             <p class="card-text" style="color: #495057;">
-                                Providing installation, replacement, and optimization of cables for smooth connectivity
-                                and device performance.
+                                Providing installation, replacement, and optimization of cables for smooth connectivity and device performance.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 6 -->
+                <!-- Service 6: Product Support & Warranty -->
                 <div class="col-md-4">
                     <div class="card h-100 border-0 shadow-sm text-center" style="transition: transform 0.3s;"
                         onmouseover="this.style.transform='translateY(-10px)'"
@@ -811,8 +789,7 @@
                             <i class="bi bi-shield-check fa-3x mb-3" style="color: #0B5ED7; font-size: 30px;"></i>
                             <h5 class="card-title" style="color: #0B5ED7;">Product Support & Warranty</h5>
                             <p class="card-text" style="color: #495057;">
-                                Comprehensive support and warranty services for all our products ensuring peace of mind
-                                and reliability.
+                                Comprehensive support and warranty services for all our products ensuring peace of mind and reliability.
                             </p>
                         </div>
                     </div>
@@ -1168,94 +1145,95 @@
         </div>
     </div>
 
-    <!-- Footer Section -->
-    <footer class="text-white" style="background-color: #0d6efd; padding: 50px 0;">
-        <div class="container">
-            <div class="row">
-                <!-- About -->
-                <div class="col-md-4 mb-4">
-                    <h5 style="font-weight: bold;">RKM TECH SERV</h5>
-                    <p>Providing top-notch services and products including tablets, smart watches, batteries, cables,
-                        and Makhana electronics to keep you connected and powered.</p>
-                </div>
 
-                <!-- Quick Links -->
-                <div class="col-md-4 mb-4">
-                    <h5 style="font-weight: bold;">Quick Links</h5>
-                    <p><a href="#" class="text-white text-decoration-none">Home</a></p>
-                    <p><a href="#" class="text-white text-decoration-none">About</a></p>
-                    <p><a href="#" class="text-white text-decoration-none">Services</a></p>
-                    <p><a href="#" class="text-white text-decoration-none">Blog</a></p>
-                    <p><a href="#" class="text-white text-decoration-none">Contact</a></p>
-                </div>
-
-                <!-- Contact Info & Social -->
-                <div class="col-md-4 mb-4">
-                    <h5 style="font-weight: bold;">Contact Us</h5>
-                    <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
-                        Darbhanga, Bihar – 847201</p>
-                    <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
-                    <p><i class="fas fa-phone-alt me-2"></i>6206767417 | 9643612318 | 8409812065 </p>
-
-                    <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
-                </div>
+<!-- Footer Section -->
+<footer class="text-white" style="background-color: #0d6efd; padding: 50px 0;">
+    <div class="container">
+        <div class="row">
+            <!-- About -->
+            <div class="col-md-4 mb-4">
+                <h5 style="font-weight: bold;">RKM TECH SERV</h5>
+                <p>Providing top-notch services and products including tablets, smart watches, batteries, cables,
+                    and Makhana electronics to keep you connected and powered.</p>
             </div>
 
-            <hr style="border-color: rgba(255,255,255,0.3);">
-
-            <!-- Newsletter Subscription -->
-            <div class="row mb-4">
-                <div class="col-md-6 mx-auto text-center">
-                    <h5 style="font-weight: bold;">Subscribe to our Newsletter</h5>
-                    <p>Get the latest updates, offers, and news about our products and services.</p>
-                    <form class="d-flex justify-content-center" action="#" method="POST">
-                        <input type="email" class="form-control me-2" placeholder="Enter your email"
-                            style="max-width: 300px;" required>
-                        <button type="submit" class="btn btn-light text-primary">Subscribe</button>
-                    </form>
-                </div>
+            <!-- Quick Links -->
+            <div class="col-md-4 mb-4">
+                <h5 style="font-weight: bold;">Quick Links</h5>
+                <p><a href="index.php" class="text-white text-decoration-none">Home</a></p>
+                <p><a href="about.php" class="text-white text-decoration-none">About</a></p>
+                <p><a href="services.php" class="text-white text-decoration-none">Services</a></p>
+                <p><a href="https://rkmtechserv.blogspot.com/" class="text-white text-decoration-none">Blog</a></p>
+                <p><a href="contact.php" class="text-white text-decoration-none">Contact</a></p>
             </div>
 
-            <div class="container text-center py-3">
-                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
-                    <span>&copy; 2025 RKM TECH SERV. All Rights Reserved.</span>
-                    <span> | Designed By <a href="https://trade4export.com/"
-                            class="text-white text-decoration-underline" target="_blank">Trade4Export</a></span>
-                </div>
-            </div>
+            <!-- Contact Info & Social -->
+            <div class="col-md-4 mb-4">
+                <h5 style="font-weight: bold;">Contact Us</h5>
+                <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
+                    Darbhanga, Bihar – 847201</p>
+                <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
+                <p><i class="fas fa-phone-alt me-2"></i>6206767417 | 9643612318 | 8409812065 </p>
 
+                <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
         </div>
-    </footer>
 
-    <!-- WhatsApp Form Script -->
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function (e) {
-            e.preventDefault();
-            var name = document.getElementById('name').value;
-            var email = document.getElementById('email').value;
-            var number = document.getElementById('number').value;
-            var message = document.getElementById('message').value;
+        <hr style="border-color: rgba(255,255,255,0.3);">
 
-            var whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
-            var whatsappURL = `https://wa.me/916206767417?text=${whatsappMessage}`; // Replace with your WhatsApp number
-            window.open(whatsappURL, '_blank');
-        });
-    </script>
+        <!-- Newsletter Subscription -->
+        <div class="row mb-4">
+            <div class="col-md-6 mx-auto text-center">
+                <h5 style="font-weight: bold;">Subscribe to our Newsletter</h5>
+                <p>Get the latest updates, offers, and news about our products and services.</p>
+                <form class="d-flex justify-content-center" action="#" method="POST">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email"
+                        style="max-width: 300px;" required>
+                    <button type="submit" class="btn btn-light text-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
 
-    <!-- bootstrap js link -->
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- AOS JS -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            once: true,
-            easing: 'ease-out-cubic'
-        });
-    </script>
+        <div class="container text-center py-3">
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                <span>&copy; 2025 RKM TECH SERV. All Rights Reserved.</span>
+                <span> | Designed By <a href="https://trade4export.com/"
+                        class="text-white text-decoration-underline" target="_blank">Trade4Export</a></span>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- WhatsApp Form Script -->
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var number = document.getElementById('number').value;
+        var message = document.getElementById('message').value;
+
+        var whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
+        var whatsappURL = `https://wa.me/919643612318?text=${whatsappMessage}`; // Replace with your WhatsApp number
+        window.open(whatsappURL, '_blank');
+    });
+</script>
+
+<!-- bootstrap js link -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+        easing: 'ease-out-cubic'
+    });
+</script>
 
 </body>
 
