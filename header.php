@@ -134,7 +134,7 @@
                       style="color: #ff914c; border: 2px solid #ff914c; transition: 0.3s;"
                       onmouseover="this.style.backgroundColor='#ff914c'; this.style.color='#fff';"
                       onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff914c';">
-                      Enquiry
+                      Certificates
                   </a>
               </div>
 
