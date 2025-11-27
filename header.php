@@ -7,7 +7,7 @@
                   <span><i class="bi bi-telephone"></i> +91 6206767417 </span>
               </div>
               <div>
-                  <i class="bi bi-instagram"><a href=""></a></i>
+                  <i class="bi bi-instagram"><a href="https://www.instagram.com/rkmtechserv/?igsh=ZnN2bm4zZ2p4ZzQz#"></a></i>
                   <a
                       href="https://www.facebook.com/story.php?story_fbid=122114388506991643&id=61579749293618&rdid=awNaGaKfSMkME2On#"><i
                           class="bi bi-facebook"></i></a>
@@ -134,7 +134,7 @@
                       style="color: #ff914c; border: 2px solid #ff914c; transition: 0.3s;"
                       onmouseover="this.style.backgroundColor='#ff914c'; this.style.color='#fff';"
                       onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ff914c';">
-                      Certificates
+                      Brochure
                   </a>
               </div>
 

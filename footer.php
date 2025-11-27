@@ -72,94 +72,99 @@ document.getElementById("enquiryForm").addEventListener("submit", function(e) {
 });
 </script>
 
-<!-- Footer Section -->
-<footer class="text-white" style="background-color: #0d6efd; padding: 50px 0;">
-    <div class="container">
-        <div class="row">
-            <!-- About -->
-            <div class="col-md-4 mb-4">
-                <h5 style="font-weight: bold;">RKM TECH SERV</h5>
-                <p>Providing top-notch services and products including tablets, smart watches, batteries, cables,
-                    and Makhana electronics to keep you connected and powered.</p>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="text-white" style="background-color: #0d6efd; padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <!-- About -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">RKM TECH SERV</h5>
+                    <p>Providing top-notch services and products including tablets, smart watches, batteries, cables,
+                        and Makhana electronics to keep you connected and powered.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">Quick Links</h5>
+                    <p><a href="index.php" class="text-white text-decoration-none">Home</a></p>
+                    <p><a href="about.php" class="text-white text-decoration-none">About</a></p>
+                    <p><a href="services.php" class="text-white text-decoration-none">Services</a></p>
+                    <p><a href="https://rkmtechserv.blogspot.com/" class="text-white text-decoration-none">Blog</a></p>
+                    <p><a href="contact.php" class="text-white text-decoration-none">Contact</a></p>
+                </div>
+
+                <!-- Contact Info & Social -->
+                <div class="col-md-4 mb-4">
+                    <h5 style="font-weight: bold;">Contact Us</h5>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
+                        Darbhanga, Bihar – 847201</p>
+                    <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
+                    <p><i class="fas fa-phone-alt me-2"></i>6206767417 | 9643612318 | 8409812065 </p>
+
+                    <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
+                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/rkmtechserv/?igsh=ZnN2bm4zZ2p4ZzQz#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://www.youtube.com/@rkmtechserv" class="text-white me-3"><i class="fab fa-youtube fa-2x"></i></a>
+                </div>
             </div>
 
-            <!-- Quick Links -->
-            <div class="col-md-4 mb-4">
-                <h5 style="font-weight: bold;">Quick Links</h5>
-                <p><a href="index.php" class="text-white text-decoration-none">Home</a></p>
-                <p><a href="about.php" class="text-white text-decoration-none">About</a></p>
-                <p><a href="services.php" class="text-white text-decoration-none">Services</a></p>
-                <p><a href="https://rkmtechserv.blogspot.com/" class="text-white text-decoration-none">Blog</a></p>
-                <p><a href="contact.php" class="text-white text-decoration-none">Contact</a></p>
+            <hr style="border-color: rgba(255,255,255,0.3);">
+
+            <!-- Newsletter Subscription -->
+            <div class="row mb-4">
+                <div class="col-md-6 mx-auto text-center">
+                    <h5 style="font-weight: bold;">Subscribe to our Newsletter</h5>
+                    <p>Get the latest updates, offers, and news about our products and services.</p>
+                    <form class="d-flex justify-content-center" action="#" method="POST">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email"
+                            style="max-width: 300px;" required>
+                        <button type="submit" class="btn btn-light text-primary">Subscribe</button>
+                    </form>
+                </div>
             </div>
 
-            <!-- Contact Info & Social -->
-            <div class="col-md-4 mb-4">
-                <h5 style="font-weight: bold;">Contact Us</h5>
-                <p><i class="fas fa-map-marker-alt me-2"></i>Ground Floor, Majhaura, Ward no-15, Benipur, Po-Bahera,
-                    Darbhanga, Bihar – 847201</p>
-                <p><i class="fas fa-envelope me-2"></i>rkmtechserv@gmail.com</p>
-                <p><i class="fas fa-phone-alt me-2"></i>6206767417 | 9643612318 | 8409812065 </p>
-
-                <h5 style="font-weight: bold;" class="mt-3">Follow Us</h5>
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+            <div class="container text-center py-3">
+                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+                    <span>&copy; 2025 RKM TECH SERV. All Rights Reserved.</span>
+                    <span> | Designed By <a href="https://trade4export.com/"
+                            class="text-white text-decoration-underline" target="_blank">Trade4Export</a></span>
+                </div>
             </div>
+
         </div>
+    </footer>
 
-        <hr style="border-color: rgba(255,255,255,0.3);">
+    <!-- WhatsApp Form Script -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var number = document.getElementById('number').value;
+            var message = document.getElementById('message').value;
 
-        <!-- Newsletter Subscription -->
-        <div class="row mb-4">
-            <div class="col-md-6 mx-auto text-center">
-                <h5 style="font-weight: bold;">Subscribe to our Newsletter</h5>
-                <p>Get the latest updates, offers, and news about our products and services.</p>
-                <form class="d-flex justify-content-center" action="#" method="POST">
-                    <input type="email" class="form-control me-2" placeholder="Enter your email"
-                        style="max-width: 300px;" required>
-                    <button type="submit" class="btn btn-light text-primary">Subscribe</button>
-                </form>
-            </div>
-        </div>
+            var whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
+            var whatsappURL = `https://wa.me/919643612318?text=${whatsappMessage}`; // Replace with your WhatsApp number
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
 
-        <div class="container text-center py-3">
-            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
-                <span>&copy; 2025 RKM TECH SERV. All Rights Reserved.</span>
-                <span> | Designed By <a href="https://trade4export.com/"
-                        class="text-white text-decoration-underline" target="_blank">Trade4Export</a></span>
-            </div>
-        </div>
-
-    </div>
-</footer>
-
-<!-- WhatsApp Form Script -->
-<script>
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        var name = document.getElementById('name').value;
-        var email = document.getElementById('email').value;
-        var number = document.getElementById('number').value;
-        var message = document.getElementById('message').value;
-
-        var whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
-        var whatsappURL = `https://wa.me/919643612318?text=${whatsappMessage}`; // Replace with your WhatsApp number
-        window.open(whatsappURL, '_blank');
-    });
-</script>
-
-<!-- bootstrap js link -->
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<!-- AOS JS -->
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-    AOS.init({
-        once: true,
-        easing: 'ease-out-cubic'
-    });
-</script>
+    <!-- bootstrap js link -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+    </script>
 
 </body>
 
